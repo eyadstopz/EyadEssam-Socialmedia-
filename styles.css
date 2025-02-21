@@ -101,3 +101,46 @@ body {
 .button i {
   margin-right: 8px;
 }
+
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+  .main {
+    max-width: 90%;
+    min-height: 500px;
+  }
+
+  .accounts {
+    max-width: 90%;
+    min-height: 400px;
+  }
+
+  .button {
+    max-width: 140px;
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 480px) {
+  .main {
+    max-width: 100%;
+    min-height: 450px;
+    border-radius: 15px;
+  }
+
+  .accounts {
+    max-width: 100%;
+    min-height: 350px;
+    border-radius: 15px;
+  }
+
+  .button {
+    max-width: 120px;
+    height: 40px;
+    font-size: 13px;
+  }
+
+  .eyadessamimg {
+    height: 70px;
+    width: 70px;
+  }
+}
